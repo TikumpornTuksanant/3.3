@@ -100,7 +100,7 @@ class GameFragment : Fragment() {
                         binding.invalidateAll()
                     } else { view.findNavController()
                             .navigate(GameFragmentDirections
-                                    .actionGameFragmentToGameWonFragment())
+                                    .actionGameFragmentToGameOverFragment())
                         // We've won!  Navigate to the gameWonFragment.
                     }
                 } else { view.findNavController()
